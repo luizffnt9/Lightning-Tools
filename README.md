@@ -1,2 +1,2 @@
-# Lightning-Tools
-Aqui compartilho algumas ferramentas para estudos de transitórios eletromagnéticos para descargas atmosféricas. O principal objetivo é focar na modelagem dos equipamentos no ATP/ATPdraw, qu eseria a minha área de interesse.
+# Modelos de isoladores
+Aqui eu deixarei modelagem em models () para modelos de isoladores. Dispenso a curva tempo-tensão, trabalharei com alguns modelos LPM (Leader Progress Model) e o DE (Disruptive Effect ou também chamado de método integrativo). A ideia de trabalhar com models é que com isso 
