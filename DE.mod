@@ -1,5 +1,5 @@
 MODEL DE
-  DATA v0                 -- onset voltage [kV]
+  DATA v0                 -- start voltage [kV]
        cfo                -- critical flashover voltage [kV]
        kda                -- disruptive-effect exponent
   INPUT v_node_1          -- voltage at terminal 1 [V]
@@ -9,7 +9,7 @@ MODEL DE
       de_rate             -- integrand converted to kV**kda * us/s
       de_accum            -- accumulated disruptive effect
       de_critical         -- critical disruptive effect
-      flashover           -- latched switch command: 0=open, 1=close
+      flashover           -- switch command: 0=open, 1=close
   OUTPUT flashover
   INIT
     e                 := 0
