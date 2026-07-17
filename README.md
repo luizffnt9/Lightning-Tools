@@ -4,7 +4,7 @@ This repository provides tools for studying electromagnetic transients associate
 
 ## Insulator Models
 
-The insulator models adopted in this project, including the *Leader Progression Model* (LPM) and the *Disruptive Effect* (DE) model, have been widely considered in the literature for assessing the lightning performance of transmission lines.
+The insulator models adopted in this project, including the *Leader Progression Model* (LPM) and the *Disruptive Effect* (DE) model, have been widely considered in the literature for assessing the lightning performance of transmission lines. Everything about this topic is at branch Insulation.
 
 ## References
 
