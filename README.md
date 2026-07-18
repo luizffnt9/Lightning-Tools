@@ -39,9 +39,23 @@ switch closing command.
 
 A comprehensive study evaluated the performance of insulators subjected to short-tail lightning impulse voltage waveforms [1]. The study covered insulators in the 110 to 500 kV range, and the model was implemented in PSCAD for validation.
 
+### Streamer Development
+
+The streamer development time is calculated based on the average voltage across the gap. The streamer propagation is completed when:
+
+$$
+\frac{1}{T_s} \int_{t=0}^{T_s} U(t) \, dt > c_1 \cdot d + c_3
+$$
+
+where:
+- $T_s$ is the streamer development time (s)
+- $U(t)$ is the instantaneous voltage across the gap (kV)
+- $d$ is the insulator string length (m)
+- $c_1$ and $c_3$ are constants that depend on the insulator type and impulse polarity
+
 ### Streamer Development Constants
 
-| Category | $c_2$ (kV/m) | $c_3$ (kV) |
+| Category | $c_1$ (kV/m) | $c_3$ (kV) |
 |---|---|---|
 | Composite insulator, negative impulse | 500 | 140 |
 | Composite insulator, positive impulse | 360 | 290 |
@@ -69,4 +83,4 @@ where $w = d - l$ for porcelain (disc) insulators and $w = d - 2l$ for composite
 
 ## References
 
-[1] X. Wang, Z. Yu, and J. He, "Breakdown Process Experiments of 110- to 500-kV Insulator Strings Under Short Tail Lightning Impulse,
+[1] X. Wang, Z. Yu, and J. He, "Breakdown Process Experiments of 110- to 500-kV Insulator Strings Under Short Tail Lightning Impulse," *IEEE Transactions on Power Delivery*, vol. 29, no. 5, pp. 2394-2401, Oct. 2014. doi: 10.1109/TPWRD.2014.2306688.
