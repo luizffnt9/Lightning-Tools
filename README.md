@@ -79,8 +79,36 @@ where $w = d - l$ for porcelain (disc) insulators and $w = d - 2l$ for composite
 | Porcelain insulator, negative impulse | 2.5 | 640 |
 | Porcelain insulator, positive impulse | 2.9 | 580 |
 
+
+### Current over the insulation
+The current during the leader development can be evaluated as:
+$$
+v_L=k_0\left(\frac{U(t)}{d-x}-E_0\right),
+\qquad q=500\,\mu\mathrm{C/m}
+$$
+
+$$
+i(t)=qv_L(t)=q\frac{dx}{dt}.
+$$
+
+Here, $q$ is the average charge per unit length of the leader. At folder teste (meaning test in english) a zoom in the current can be viewed before the flashover:
+
+
+### ATP 
+Different from DE model, this model was implemented as a Thevenin model at ATP (TYPE94), the user only follow these steps at ATPdraw:
+Right Bottom -> Models -> Type94 -> THEV and edit the file using wang.mod
+
+The model was compared with [2], called LDM.
+
+
+
 ---
 
 ## References
 
 [1] X. Wang, Z. Yu, and J. He, "Breakdown Process Experiments of 110- to 500-kV Insulator Strings Under Short Tail Lightning Impulse," *IEEE Transactions on Power Delivery*, vol. 29, no. 5, pp. 2394-2401, Oct. 2014. doi: 10.1109/TPWRD.2014.2306688.
+
+[2] Z. G. Datsios and P. N. Mikropoulos, "Implementation of Leader Development
+Models in ATP-EMTP Using a Type-94 Circuit Component," in *Proc. 2014
+International Conference on Lightning Protection (ICLP)*, Shanghai, China,
+pp. 979-984, Oct. 2014.
