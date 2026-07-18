@@ -82,6 +82,7 @@ where $w = d - l$ for porcelain (disc) insulators and $w = d - 2l$ for composite
 
 ### Current over the insulation
 The current during the leader development can be evaluated as:
+
 $$
 v_L=k_0\left(\frac{U(t)}{d-x}-E_0\right),
 \qquad q=500\,\mu\mathrm{C/m}
