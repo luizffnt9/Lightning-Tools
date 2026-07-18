@@ -94,7 +94,7 @@ $$
 
 Here, $q$ is the average charge per unit length of the leader. At folder teste (meaning test in english) a zoom in the current can be viewed before the flashover:
 
-![Predischarge current during leader development](Docs/image/leader-current.png)
+![Predischarge current during leader development](Docs/Image/leader-current.png)
 
 
 ### ATP 
