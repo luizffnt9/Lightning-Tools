@@ -92,7 +92,7 @@ $$
 i(t)=qv_L(t)=q\frac{dx}{dt}.
 $$
 
-Here, $q$ is the average charge per unit length of the leader. At folder teste (meaning test in english) a zoom in the current can be viewed before the flashover:
+Here, $q$ is the average charge per unit length of the leader. At folder teste (meaning test in english) and wang.acp a zoom in the current can be viewed before the flashover:
 
 ![Predischarge current during leader development](Docs/Image/leader-current.png)
 
