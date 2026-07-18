@@ -94,6 +94,8 @@ $$
 
 Here, $q$ is the average charge per unit length of the leader. At folder teste (meaning test in english) a zoom in the current can be viewed before the flashover:
 
+![Predischarge current during leader development](docs/images/leader-current.png)
+
 
 ### ATP 
 Different from DE model, this model was implemented as a Thevenin model at ATP (TYPE94), the user only follow these steps at ATPdraw:
