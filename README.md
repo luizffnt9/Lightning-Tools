@@ -10,6 +10,6 @@ The insulator models adopted in this project, including the *Leader Progression 
 
 [1] C. S. Engelbrecht *et al*., “Procedures for Estimating the Lightning Performance of Transmission Lines—New Aspects,” CIGRE Working Group C4.23, Paris, France, Technical Brochure 839, Jun. 2021.
 
-[2] F. Lopes, “Presente, Professor! — Ep. 1: Como ler sinais do ATP/ATPDraw,” YouTube, vídeo on-line. Disponível em: https://youtu.be/35t36dGOs4M. 
+[2] F. Lopes, "Presente, Professor!" - Ep. 2 - "Instalação do ATP/ATPDraw " YouTube, vídeo on-line. Disponível em: https://youtu.be/-4kkYGUC9ik?si=WRcU6BodPcScwwEe. 
 
 [3] F. Lopes e E. Passos, “Resolva problemas de simulação de rotinas MODELS no ATP/ATPDraw,” YouTube, vídeo on-line. Disponível em: https://youtu.be/mGjsfTH6Cgc. 
