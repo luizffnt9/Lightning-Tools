@@ -118,12 +118,7 @@ $$
 where $d$ is the insulation length and $E_0$ is the critical electric field. The leader propagation velocity is given by:
 
 $$
-\frac{dl}{dt}
-=
-k_1 \cdot V(t)
-\left[
-\frac{V(t)}{x} - E_0
-\right]
+\frac{dl}{dt}= k_1 \cdot V(t) \left[ \frac{V(t)}{x} - E_0 \right]
 $$
 
 The parameters in the equation above are given in the following table:
