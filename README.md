@@ -103,6 +103,9 @@ Right Bottom -> Models -> Type94 -> THEV and edit the file using wang.mod
 
 The model was compared with [2], called LDM.
 
+## Leader Progression Model (LPM) - CIGRE
+
+At this model it is possible to check that the streamer process is complete when the voltage acrros the insulation is:
 
 
 ---
